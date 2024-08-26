@@ -1,2 +1,2 @@
-require('total5');
-Total.run({ port: 8000, release: false });
+require('total4/debug')({ port: 8000});
+

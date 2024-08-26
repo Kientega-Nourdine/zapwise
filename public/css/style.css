@@ -17,15 +17,6 @@ body { font-family: sans-serif; background: var(--bg-color); color: #fff; overfl
 .flying .shadow.left_top { left: 0; top: 8rem; }
 .flying .shadow.right_top { right: 30rem; top: -1rem; }
 
-.shadow-only {
-    width: 0;
-    height: 0;
-    box-shadow: 0 0 20px 15px rgba(144, 238, 144, 0.5); /* Light green shadow */
-    background-color: transparent;
-    border: none;
-    visibility: visible; /* Keep the shadow visible */
-}
-
 /******************** Header section desgin *******************/
 .header { padding: 12px; padding-bottom: 15px; position: fixed; display: flex; align-items: center; justify-content: space-between; border-bottom: 3px solid var(--green-color); }
 .header .logo { display: flex; justify-content: center; align-items: center; gap: 3px; font-weight: bold; }

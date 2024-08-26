@@ -2,7 +2,8 @@
 	"routes": [
 		{
 			"method": "GET",
-			"url": "/"
+			"url": "/",
+			"owner": "controller_default"
 		}
 	]
 }
